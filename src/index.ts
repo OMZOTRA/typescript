@@ -38,22 +38,3 @@ enum statusCode {
   codeerreurserveur = 500,
   codeok = 200,
 }
-
-/***********************************************************/
-/***********************************************************/
-// Déclaration des fonctions
-// Il n'y a pas de différence en typescript  sur la déclaration de fonctions: vous pouvez
-// les déclarer de manière anonyme ou nommée.
-const prenom: string = "oumar";
-const nom: string = "Traore";
-function mafunction() {
-  console.log(prenom + " " + nom);
-}
-
-mafunction();
-
-const maNewFunction = () => {
-  console.log(nom + " " + prenom);
-};
-
-maNewFunction();
