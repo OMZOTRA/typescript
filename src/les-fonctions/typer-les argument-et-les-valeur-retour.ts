@@ -105,10 +105,28 @@ function getUser(param1: string | number, param2?: string): User {
   };
   if (typeof param1 === "number") {
     // récupère le user par son id
+    user = {
+      id: 1,
+      email: "king@yatass.fr",
+      nom: "philipe",
+      prenom: "margo",
+    };
   } else if (typeof param2 != "undefined") {
     // récupère le user par son nom et prénom
+    user = {
+      id: 1,
+      email: "king@yatass.fr",
+      nom: "philipe",
+      prenom: "margo",
+    };
   } else {
     // récupère le user par son email
+    user = {
+      id: 1,
+      email: "king@yatass.fr",
+      nom: "philipe",
+      prenom: "margo",
+    };
   }
   return user;
 }
